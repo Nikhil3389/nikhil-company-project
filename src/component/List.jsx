@@ -29,16 +29,8 @@ const List = ({ items = [] }) => {
   );
 
   return (
-    <ul style={{ textAlign: 'left', listStyleType: 'none', padding: 0 }}>
+    <ul style={{ textAlign: 'left' }}>
       {memoizedItems}
-      <style>
-        {`
-          li:hover {
-            cursor: pointer;
-            background-color: #f8f8f8;
-          }
-        `}
-      </style>
     </ul>
   );
 };

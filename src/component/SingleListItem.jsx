@@ -5,11 +5,7 @@ import PropTypes from 'prop-types';
 const SingleListItem = ({ index, isSelected, onClickHandler, text }) => {
   return (
     <li
-      style={{ backgroundColor: isSelected ? 'green' : 'red',
-    padding: '10px',
-        borderRadius: '5px',
-        marginBottom: '10px'
-}}
+      style={{ backgroundColor: isSelected ? 'green' : 'red'}}
       onClick={() => onClickHandler(index)}
     > 
       {text}

@@ -1,11 +1,11 @@
 export const items = [
   {
-    text: 'Nikhil Kumar Kataria',
+    text: 'List1',
   },
   {
-    text: 'Subh',
+    text: 'List2',
   },
   {
-    text: 'aakarshit',
+    text: 'List3',
   },
 ];
